@@ -1,0 +1,26 @@
+# Ignore node_modules everywhere
+node_modules/
+
+# Frontend build files and logs (assuming React, Vue, Angular, etc.)
+frontend/build/
+frontend/dist/
+frontend/.env
+frontend/npm-debug.log
+frontend/yarn-error.log
+
+# Backend dependencies and environment files
+backend/node_modules/
+backend/.env
+backend/npm-debug.log
+backend/yarn-error.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Optional: IDE/editor folders
+.vscode/
+.idea/
