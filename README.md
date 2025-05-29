@@ -85,6 +85,19 @@ npm start
 
 ---
 
+## 🖼️ Screenshots
+
+### 🔹 Registration Form
+![Registration](./screenshots/registration-form.png)
+
+### 🔹 Dashboard View
+![Dashboard](./screenshots/dashboard.png)
+
+### 🔹 PostgreSQL Table View
+![Database](./screenshots/db-table.png)
+
+---
+
 ## 📬 Author
 Resham
 Web Developer Intern Applicant
