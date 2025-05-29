@@ -71,14 +71,21 @@ npm install
 cp .env.example .env
 # Edit .env with your PostgreSQL credentials
 node server.js
+```
 
-### 1. Frontend Setup
+---
 
+### 2. Frontend Setup
+
+```bash
 cd frontend
 npm install
 npm start
+```
 
-📬 Author
+---
+
+## 📬 Author
 Resham
 Web Developer Intern Applicant
 GitHub: github.com/resham7644
