@@ -53,10 +53,10 @@ Database (PostgreSQL)
 ## 📁 Project Structure
 
 broker-task/
-├── frontend/ → React UI with routing, API calls, Tailwind styling
-├── backend/ → Express server with DB connection and routes
-├── .env.example → Sample environment variables
-├── README.md → Project guide and architecture explanation
+- ├── frontend/ → React UI with routing, API calls, Tailwind styling
+- ├── backend/ → Express server with DB connection and routes
+- ├── .env.example → Sample environment variables
+- ├── README.md → Project guide and architecture explanation
 
 
 ---
