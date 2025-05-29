@@ -99,7 +99,8 @@ npm start
 ---
 
 ## 📬 Author
-Resham Singh
+
+### Resham Singh
 - Web Developer Intern Applicant
 - GitHub: github.com/resham7644
 - Email: resham7644@gmail.com
