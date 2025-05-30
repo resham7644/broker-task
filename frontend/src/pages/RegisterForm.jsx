@@ -30,16 +30,16 @@ function RegisterForm() {
         return;
         }
 
-      if (!emailRegex.test(email)) {
-        setEmailError(true);
-        setError("Invalid email format");
-        if (!gstRegex.test(gst)) {
-        setGstError(true);
-        setError("Invalid GSTIN format");
+      const isEmailValid = emailRegex.test(email);
+      const isGstValid = gstRegex.test(gst);
+
+      if (!isEmailValid || !isGstValid) {
+        setEmailError(!isEmailValid);
+        setGstError(!isGstValid);
+        setError("Invalid format");
         return;
       }
-        return;
-      }
+
 
       
 
@@ -66,7 +66,7 @@ function RegisterForm() {
         } 
         else{
          alert("Server Error");
-         setError("Server error. Please try again.");
+         setError(err.message);
         }
       }
 
